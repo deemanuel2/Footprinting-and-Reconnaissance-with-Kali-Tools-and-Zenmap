@@ -51,6 +51,8 @@ This project is for educational purposes only and was completed as part of a cyb
 
 **Findings:** IP address(es) the domain resolves to, and mail servers if you queried MX records.
 
+**Why it matters:** The IP address shows where the site is hosted and gives a target for later scanning. Mail servers show how the domain handles email.
+
 ---
 
 ### curl -I https://networkwalks.com
