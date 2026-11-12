@@ -76,8 +76,7 @@ This project is for educational purposes only and was completed as part of a cyb
 - The link header reveals the WordPress REST API (/wp-json/).
 - The session cookie has the Secure and HttpOnly flags.
   
-**Why it matters:** HTTP headers reveal the server software and show whether protections such as HSTS or content security policies are in place.
-**Why it matters:** The IP address shows where the site is hosted and gives a target for later scanning. Mail servers show how the domain handles email.
+**Why it matters:** HTTP headers reveal the server software, the caching setup and hidden endpoints, and show whether protections such as HSTS are in place.
 
 ---
 
@@ -92,7 +91,7 @@ This project is for educational purposes only and was completed as part of a cyb
 
 ---
 
-## dnsrecon -d networkwalks.com
+### dnsrecon -d networkwalks.com
 ![dnsrecon output](https://github.com/deemanuel2/FOOTPRINTING-AND-RECONNAISSANCE-ATTACKS-WITH-MULTIPLE-KALI-TOOLS/blob/f5980abdd02cb188d0dbeb0fabded686f941e5cb/dnsrecon.png)
 
 **Findings:** 
