@@ -12,7 +12,9 @@ Yes. Zenmap was downloaded and installed from the official website (nmap.org).
 - **LAN subnet:** 192.168.x.0/24 (last digits hidden)
 
 ### Task 3: List of live hosts
-The live hosts found by the Ping scan are shown in the host list in the screenshot under Task 7. Addresses and names are covered.
+Command: `nmap -sn <my-local-subnet>` ("Ping scan")
+
+![](https://github.com/deemanuel2/FOOTPRINTING-AND-RECONNAISSANCE-ATTACKS-WITH-MULTIPLE-KALI-TOOLS/blob/4750e493ee73ed62550e9ef3e08124a22c19c78a/Zenmap1.png)
 
 ### Task 4: Number of live hosts
 **2 hosts** were live in my subnet (256 IP addresses scanned).
