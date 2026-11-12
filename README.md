@@ -47,8 +47,34 @@ This project is for educational purposes only and was completed as part of a cyb
 ---
 
 ### nslookup networkwalks.com
-![]()
+![](https://github.com/deemanuel2/FOOTPRINTING-AND-RECONNAISSANCE-ATTACKS-WITH-MULTIPLE-KALI-TOOLS/blob/f5980abdd02cb188d0dbeb0fabded686f941e5cb/nslookup.png)
 
 **Findings:** IP address(es) the domain resolves to, and mail servers if you queried MX records.
 
+---
+
+### curl -I https://networkwalks.com
+![](https://github.com/deemanuel2/FOOTPRINTING-AND-RECONNAISSANCE-ATTACKS-WITH-MULTIPLE-KALI-TOOLS/blob/f5980abdd02cb188d0dbeb0fabded686f941e5cb/Screenshot_2026-11-11_16-25-57.png)
+
+**Findings:** [Status code, server header, redirects, and security headers present or missing.]
+
+**Why it matters:** HTTP headers reveal the server software and show whether protections such as HSTS or content security policies are in place.
 **Why it matters:** The IP address shows where the site is hosted and gives a target for later scanning. Mail servers show how the domain handles email.
+
+---
+
+### wafw00f https://networkwalks.com
+![wafw00f output](https://github.com/deemanuel2/FOOTPRINTING-AND-RECONNAISSANCE-ATTACKS-WITH-MULTIPLE-KALI-TOOLS/blob/f5980abdd02cb188d0dbeb0fabded686f941e5cb/wafwoof.png)
+
+**Findings:** [Whether a web application firewall was detected, and which one.]
+
+**Why it matters:** A WAF can block or alter scanning and attack attempts, so knowing about it helps plan later tasks and shows how well the site is defended.
+
+---
+
+## dnsrecon -d networkwalks.com
+![dnsrecon output](https://github.com/deemanuel2/FOOTPRINTING-AND-RECONNAISSANCE-ATTACKS-WITH-MULTIPLE-KALI-TOOLS/blob/f5980abdd02cb188d0dbeb0fabded686f941e5cb/dnsrecon.png)
+
+**Findings:** [A, MX, NS and TXT records found, and any subdomains.]
+
+**Why it matters:** DNS records map out the domain's infrastructure. Extra subdomains or TXT records (such as SPF) can reveal additional services and how email is protected.
