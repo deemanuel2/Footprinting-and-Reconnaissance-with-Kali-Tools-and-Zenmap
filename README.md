@@ -38,8 +38,17 @@ This project is for educational purposes only and was completed as part of a cyb
 ---
 
 ### whatweb networkwalks.com
-![]()
+![](https://github.com/deemanuel2/FOOTPRINTING-AND-RECONNAISSANCE-ATTACKS-WITH-MULTIPLE-KALI-TOOLS/blob/c3b835b419b2efa9e103bf4e924731513c2b24e6/whatweb.png)
 
 **Findings:** Web server, CMS (for example WordPress), programming language, plugins, and versions detected.
 
 **Why it matters:** Knowing the technologies and versions in use helps an attacker look for known weaknesses, and helps a defender see what information the site gives away.
+
+---
+
+### nslookup networkwalks.com
+![]()
+
+**Findings:** IP address(es) the domain resolves to, and mail servers if you queried MX records.
+
+**Why it matters:** The IP address shows where the site is hosted and gives a target for later scanning. Mail servers show how the domain handles email.
