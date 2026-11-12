@@ -4,8 +4,8 @@ W2-PM-FINAL | Cybersecurity | Networkwalks
 
 | Field | Detail |
 |---|---|
-| Name | [Your name] |
-| Program/Batch | [Your batch] |
+| Name | Emmanuel Opara |
+| Program/Batch | B084 |
 | Date | 13 November 2026 |
 | Modules completed | W2-PM1 (Multiple Kali Tools), W2-PM5 (Zenmap Scanning) |
 | Client/Target | 1. networkwalks.com (lab target provided by the course) 2. My own local LAN |
@@ -53,7 +53,7 @@ This report covers two Week 2 modules. In the first, I footprinted networkwalks.
 ### 4.2 Network Scanning with Zenmap
 For the second activity, I used Zenmap to perform network discovery on my local network. The practical required me to identify my local IP address and subnet, discover live hosts, identify their IP and MAC addresses, and generate a network topology.
 
-I first used the Windows `ipconfig` command to identify my local IP address and LAN subnet. I then entered the subnet into Zenmap, ran it as administrator, and selected Ping Scan to identify active hosts.
+I first used the Windows `ipconfig` command to identify my local IP address and LAN subnet. I then entered the subnet into Zenmap, and selected Ping Scan to identify active hosts.
 
 The scan covered 256 IP addresses and identified **2 live hosts**. MAC addresses were displayed for the live hosts in the Nmap Output tab. The IP addresses, MAC addresses, vendor names and device names are hidden in my screenshots for privacy.
 
