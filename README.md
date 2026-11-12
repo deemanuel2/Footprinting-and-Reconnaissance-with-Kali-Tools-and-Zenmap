@@ -26,6 +26,20 @@ This project is for educational purposes only and was completed as part of a cyb
 
 ---
 
-### 1. whois
-**Command:** `whois networkwalks.com`
-**Purpose:** Domain registration details
+### whois networkwalks.com
+![](https://github.com/deemanuel2/FOOTPRINTING-AND-RECONNAISSANCE-ATTACKS-WITH-MULTIPLE-KALI-TOOLS/blob/48be886683a786c4ee231b53756318ea94e3b5ed/whois_result.png)
+
+![](https://github.com/deemanuel2/FOOTPRINTING-AND-RECONNAISSANCE-ATTACKS-WITH-MULTIPLE-KALI-TOOLS/blob/48be886683a786c4ee231b53756318ea94e3b5ed/whois2_result.png)
+
+**Findings:** Registrar, creation and expiry dates, name servers, and whether registrant details are hidden by privacy protection.
+
+**Why it matters:** Registration details show who manages the domain and which name servers it uses. They can reveal how long the site has existed and who could be contacted about it.
+
+---
+
+### whatweb networkwalks.com
+![]()
+
+**Findings:** Web server, CMS (for example WordPress), programming language, plugins, and versions detected.
+
+**Why it matters:** Knowing the technologies and versions in use helps an attacker look for known weaknesses, and helps a defender see what information the site gives away.
