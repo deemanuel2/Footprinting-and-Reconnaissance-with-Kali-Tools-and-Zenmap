@@ -4,8 +4,8 @@ W2-PM-FINAL | Cybersecurity | Networkwalks
 
 | Field | Detail |
 |---|---|
-| Name | Emmanuel Opara |
-| Program/Batch | B084 |
+| Name | [Your name] |
+| Program/Batch | [Your batch] |
 | Date | 13 November 2026 |
 | Modules completed | W2-PM1 (Multiple Kali Tools), W2-PM5 (Zenmap Scanning) |
 | Client/Target | 1. networkwalks.com (lab target provided by the course) 2. My own local LAN |
@@ -20,7 +20,9 @@ These activities were performed only on a lab target provided by my course and o
 ---
 
 ## 2. Introduction
-This report covers two Week 2 modules. In the first, I footprinted networkwalks.com using six Kali Linux tools. In the second, I used Zenmap to scan my own local network. Together they show how an attacker moves from gathering public information to mapping live hosts. Each step lists the command, what I observed, and why it matters. Screenshots are in the [project README](README.md).
+This report covers two Week 2 modules. In the first, I footprinted networkwalks.com using six Kali Linux tools. In the second, I used Zenmap to scan my own local network. Together they show how an attacker moves from gathering public information to mapping live hosts. Each step lists the command, what I observed, and why it matters.
+
+> **Note:** All evidence (screenshots of each tool's output and the Zenmap scan) is already included in the [project README](README.md). This report summarizes the findings and does not repeat the screenshots.
 
 ---
 
@@ -41,6 +43,7 @@ This report covers two Week 2 modules. In the first, I footprinted networkwalks.
 ---
 
 ## 4. Activities Performed
+*Evidence for every step below is in the [README](README.md).*
 
 ### 4.1 Footprinting and Reconnaissance (networkwalks.com)
 - **whois:** showed the registrar (GoDaddy), the registration and expiry dates, name servers (HostGator and GoDaddy), and that the owner's details are hidden by a privacy service.
@@ -53,9 +56,9 @@ This report covers two Week 2 modules. In the first, I footprinted networkwalks.
 ### 4.2 Network Scanning with Zenmap
 For the second activity, I used Zenmap to perform network discovery on my local network. The practical required me to identify my local IP address and subnet, discover live hosts, identify their IP and MAC addresses, and generate a network topology.
 
-I first used the Windows `ipconfig` command to identify my local IP address and LAN subnet. I then entered the subnet into Zenmap, and selected Ping Scan to identify active hosts.
+I first used the Windows `ipconfig` command to identify my local IP address and LAN subnet. I then entered the subnet into Zenmap, ran it as administrator, and selected Ping Scan to identify active hosts.
 
-The scan covered 256 IP addresses and identified **2 live hosts**. MAC addresses were displayed for the live hosts in the Nmap Output tab. The IP addresses, MAC addresses, vendor names and device names are hidden in my screenshots for privacy.
+The scan covered 256 IP addresses and identified **2 live hosts**. MAC addresses were displayed for the live hosts in the Nmap Output tab.
 
 After completing the scan, I opened the Topology section in Zenmap, enabled the legend and saved the network topology in PDF format as required by the practical task.
 
